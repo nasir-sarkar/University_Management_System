@@ -29,7 +29,7 @@ This system provides role-based functionalities:
 - Enroll students in courses and enable/disable course registration availability.
 - Enroll teachers in courses.
 
-The University Management System ensures an effortless academic workflow while maintaining security and administrative control.
+The University Management System ensures an organised academic workflow while maintaining security and administrative control.
 
 
 
