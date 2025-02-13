@@ -1,0 +1,20 @@
+﻿CREATE TABLE [dbo].[Student] (
+    [Student_ID]       INT            IDENTITY (1, 1) NOT NULL,
+    [Name]             VARCHAR (255)  NULL,
+    [Email]            VARCHAR (255)  NULL,
+    [Password]         VARCHAR (255)  NULL,
+    [DOB]              DATE           NULL,
+    [CGPA]             DECIMAL (4, 2) NULL,
+    [Program]          VARCHAR (255)  NULL,
+    [Blood]            VARCHAR (10)   NULL,
+    [Gender]           VARCHAR (10)   NULL,
+    [Father]           VARCHAR (255)  NULL,
+    [Mother]           VARCHAR (255)  NULL,
+    [Contact]          VARCHAR (20)   NULL,
+    [Address]          VARCHAR (MAX)  NULL,
+    [Nationality]      VARCHAR (100)  NULL,
+    [Status]           VARCHAR (255)  NULL,
+    [Credit_Completed] INT            DEFAULT ((0)) NULL,
+    [Course_Reg]       VARCHAR (255)  DEFAULT ('On') NULL,
+    PRIMARY KEY CLUSTERED ([Student_ID] ASC)
+);
