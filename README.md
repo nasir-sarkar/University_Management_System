@@ -3,7 +3,7 @@ University Management System
 
 
 # Preface
-The University Management System is a software solution designed to streamline the management of university operations, focusing on user roles: Students, Teachers, and Admins. The system enables efficient handling of course registrations, student results, and faculty management while ensuring secure and structured access control.
+The University Management System is a software solution designed to streamline the management of university operations, focusing on user roles: Students, Teachers, and Admins. The system enables efficient handling of course registrations, student results, and faculty management while ensuring secure and structured access control. It is created with C# in Visual Studio using Windows Forms App (.NET Framework).
 
 
 # Overview
