@@ -14,7 +14,7 @@ namespace University_Management_System
 
         public DataAccess()
         {
-            connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=E:\\University_Management_System\\University_Management_System\\University_Management_System\\DATABASE\\University.mdf;Integrated Security=True;Connect Timeout=30";
+            connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=E:\\University_Management_System\\University_Management_System\\DATABASE\\University.mdf;Integrated Security=True;Connect Timeout=30";
         }
 
         public string GetConnectionString()
